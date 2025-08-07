@@ -1,0 +1,122 @@
+/* Reset some default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    background-color: #e5d9d9; /*#f4f4f4;*/
+    font-family: monospace, Arial, sans-serif;
+    font-size: x-large;
+}
+
+
+/* Container with border */
+.studentInfo {
+    display: flex;
+    align-items: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    width: 750px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Profile image styling */
+.studentProfile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    /*filter: grayscale(100%);*/
+    border: 3px solid #0077cc;
+    margin-right: 80px;
+    margin-left: 30px;
+}
+
+/* Student data */
+.studentData {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+/* Styling labels and headings */
+.studentData span {
+    font-weight: bold;
+    color: #333;
+    margin-right: 5px;
+}
+
+.studentData h1,
+.studentData h2,
+.studentData h3 {
+    display: block;
+    font-weight: normal;
+    color: #444;
+}
+/* Button-style anchor */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #0077cc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 15px;
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #0077cc;
+}
+
+/*Styling Table on Assignment.html file*/
+
+table thead{
+    display: contents;
+}
+table thead tr{
+    padding: 10px;
+}
+table th{
+    background-color: #95b3f5;
+    padding: 5px;
+}
+.classRoutine{
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    border: 1px solid blue;
+}
+caption{
+    font-weight: bold;
+    font-size: x-large;
+    font-family: monospace,Arial, sans-serif;
+}
+tr td{
+    padding: 5px 8px 5px 8px;
+}
+tr td:first-child{
+    background-color: #d7d7d7;
+}
+.classRoutine table{
+    border: 1px solid #eeeeee;
+    text-align: center;
+}
+
+
+
